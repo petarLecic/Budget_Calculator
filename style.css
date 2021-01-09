@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    white-space: nowrap;
+}
+
+body {
+    background: url(./background.jpg);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2vw;
+}
+
+header:first-child {
+    margin-top: 2vw;
+}
+
+header p {
+    font-size: 2.5vw;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.2);
+    color:white;
+    text-shadow: 2px 2px black;
+}
+
+#saldo {
+    padding: 1vw;
+    border: 1px solid black;
+    font-weight: bold;
+    margin: 1vw;
+    width: 40%;
+    text-align: center;
+}
+
+header > div {
+    width: 50%;
+    height: 2.5vw;
+    padding: 1vw;
+    margin: 0.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:  white;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+    border: 1px solid black;
+}
+
+#prihodi {
+    background-color: rgba(0, 144, 228, 0.8);
+}
+
+#rashodi {
+    background-color: rgba(99, 66, 138, 0.8);
+}
+
+#ukupanRashod {
+    display: flex;
+}
+
+#rashodProcenat {
+    background-color: rgba(153, 100, 214, 0.8);
+    margin-left: 5%;
+    align-self: center;
+}
+
+#unos {
+    margin-bottom: 2vw;
+    display: flex;
+    justify-content: center;
+    background-color:  rgba(0, 0, 0, 0.2);
+}
+
+#unos > * {
+    margin: 1vw;
+}
+
+#unos button {
+    background-color: white;
+    border: none;
+    padding: 0.2vw;
+}
+
+#liste {
+    display: flex;
+    justify-content: space-around;
+    color:  white;
+    text-shadow: 1px 1px black;
+}
+.list {
+    width: 40%;
+}
+.list > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.list > h1 {
+    font-size: 2vw;
+}
+
+li {
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 144, 228, 0.8);
+}
+
+#listaRashoda li {
+    background-color: rgba(99, 66, 138, 0.8);
+}
+
+#procenat {
+    background-color: rgba(153, 100, 214, 0.8);
+    margin-left: 5%;
+    align-self: center;
+}
+
+li div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#remove {
+    display: none;
+    margin-left: 1vw;
+    padding-bottom: 0.1vw;
+    height: 1.6vw;
+    width: 1.6vw;
+    background-color:  rgba(55, 182, 255, 0.8);
+    cursor: pointer;
+    text-shadow: none;
+    font-size: 1.5vw;
+}
+
+#listaRashoda #remove {
+    background-color: rgba(153, 100, 214, 0.8);
+    width: 2.3vw;
+}
+
+li:hover  #remove {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

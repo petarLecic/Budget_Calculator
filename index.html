@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="inedx.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <p>Dostupan budžet u januaru :</p>
+        <p id="saldo">0.00 RSD</p>
+        <div id="prihodi">
+            <span>PRIHOD</span> <span id="ukupanPrihod"></span>
+        </div>
+        <div id="rashodi">
+            <span>RASHOD</span>
+            <div id="ukupanRashod">
+                <span id="rashodIznos"></span> <span id="rashodProcenat"></span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <form id="unos">
+            <select>
+                <option value="+">+</option>
+                <option value="-">-</option>
+            </select>
+            <input type="text" placeholder="Опис..."/>
+            <input type="number" placeholder="Износ">
+            <button id="dodaj">Dodaj</button>
+        </form>
+        <div id="liste">
+            <section class="list">
+                <h1>PRIHODI</h1>
+                <ul id="listaPrihoda">
+    
+                </ul>
+            </section>
+            <section class="list">
+                <h1>RASHODI</h1>
+                <ul id="listaRashoda">
+    
+                </ul>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
