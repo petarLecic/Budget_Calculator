@@ -1,2 +1,3 @@
 # Projekat1
-Aplikacija za izračunavanje zarade
+
+Aplikacija za izračunavanje dostupnog budžeta

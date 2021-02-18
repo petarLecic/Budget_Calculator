@@ -46,7 +46,7 @@ function addItem(e) {
 
 function restart(e) {
     e.preventDefault();
-    let confirmation = prompt('Type in "restart" to confirm!');
+    let confirmation = prompt('Ukucajte "restart" da biste potvrdili!');
     if (confirmation.trim().toLowerCase() === 'restart') {
         localStorage.clear();
         document.location.reload();
