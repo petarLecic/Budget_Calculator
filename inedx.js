@@ -57,13 +57,13 @@ function restart(e) {
 
 function areValid(operation, description, value) {
     if (operation == '-' && value > saldo) {
-        alert('Немате довољно средстава за тај расход.');
+        alert('Nemate dovoljno sredstava za rashod.');
         return false;
     } else if (!description.trim()) {
-        alert('Опис не сме бити празан.');
+        alert('Opis ne sme biti prazan');
         return false;
     } else if (value <= 0) {
-        alert('Износ мора бити позитиван број.');
+        alert('Iznos mora biti pozitivan broj.');
         return false;
     } else {
         return true;
